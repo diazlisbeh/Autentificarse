@@ -20,7 +20,7 @@ namespace Autentificarse.Clases
         }
         public override InterfaceUser Validar()
         {
-            return new Usuario(_usuario, _clave, _rool);
+            return new Usuarios(_usuario, _clave, _rool);
         }
 
 

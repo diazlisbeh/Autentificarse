@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace Autentificarse.Clases
 {
-    public class Usuario : InterfaceUser
+    public class Usuarios : InterfaceUser
     {
+
         private string _usuario;
         private string _clave;
         private string _rool;
 
-        public Usuario(string Usuario, string Clave, string Rool)
+        public Usuarios(string Usuario, string Clave, string Rool)
         {
             _usuario = Usuario;
             _clave = Clave;
