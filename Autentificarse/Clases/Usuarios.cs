@@ -21,7 +21,7 @@ namespace Autentificarse.Clases
         }
         public string Validar(string Usuario, string Clave, string Rool)
         {
-            return Usuario + " " + Clave + " " + Rool;
+            return "Usuario: "+Usuario +", Clave: " + Clave + ", Rol: " + Rool + ",";
         }
     }
 }
